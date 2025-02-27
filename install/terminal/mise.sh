@@ -1,5 +1,3 @@
-# yay -S --needed mise --noconfirm
-
 # Install Mise (programming language manager)
 echo "Attempting to install Mise..."
 

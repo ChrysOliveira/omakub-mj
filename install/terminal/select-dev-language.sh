@@ -14,7 +14,7 @@ if [[ -n "$languages" ]]; then
       mise x ruby -- gem install rails --no-document
       ;;
     Node.js)
-      mise use --global node@lts
+      mise use -g node
       ;;
     Go)
       mise use --global go@latest

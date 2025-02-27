@@ -15,10 +15,10 @@ There is an Arch version for WSL2 on Windows, called [ArchWSL](https://github.co
 
 From a Terminal run:
 
-    wget -qO- https://raw.githubusercontent.com/ChrysOliveira/omakub-mj/stable/boot.sh | bash
+    wget -qO- https://raw.githubusercontent.com/ChrysOliveira/omakub-mj/stable/boot.sh | zsh
 or
 
-    wget -qO- https://raw.githubusercontent.com/ChrysOliveira/omakub-mj/master/boot.sh | bash
+    wget -qO- https://raw.githubusercontent.com/ChrysOliveira/omakub-mj/master/boot.sh | zsh
 
 And follow the instructions on screen. 
 

@@ -10,10 +10,9 @@ ascii_art='   ____  __  ______    __ ____  ______     __  ___    __
 echo -e "$ascii_art"
 echo "=> Omakub is for fresh Manjaro GNOME 24 or newer installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
-echo -e "\nChanging default shell to ZSH..."
 
-
-chsh -s $(which zsh)
+# echo -e "\nChanging default shell to ZSH..."
+# chsh -s $(which zsh)
 
 # Check for 'yay' and install it if not found
 if ! command -v yay >/dev/null 2>&1; then
